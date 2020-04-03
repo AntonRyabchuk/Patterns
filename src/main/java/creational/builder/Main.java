@@ -1,8 +1,8 @@
-package builder;
+package creational.builder;
 
 import java.time.LocalDate;
 
-public class BuilderTest {
+public class Main {
     public static void main(String[] args) {
         Car lada = new Car.CarBuilder()
                 .setId(1L)
